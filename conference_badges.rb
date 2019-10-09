@@ -21,7 +21,11 @@ end
    end
    new_array
  end
-     
-  # use .collect to colect and store rooms assign strings
+ 
+def printer(array)
+  new_array = []
+  i = 1 
+  array.each do |name|
+    new_array.push()
    
    
