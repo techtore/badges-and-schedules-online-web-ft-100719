@@ -14,8 +14,9 @@ end
  
  def assign_rooms(array)
    new_array = []
-   array.each do 
-     new_array.push()
+   array.each do |name|
+     new_array.push("Hello, #{name}! You'll be assigned to room #{room}!")
+     
   # use .collect to colect and store rooms assign strings
    
    
