@@ -19,6 +19,7 @@ end
      new_array.push("Hello, #{name}! You'll be assigned to room #{i}!")
      i += 1 
    end
+   new_array
  end
      
   # use .collect to colect and store rooms assign strings
