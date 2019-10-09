@@ -12,7 +12,10 @@ end
    return badges
  end
  
- def assign_rooms(speaker)
+ def assign_rooms(array)
+   new_array = []
+   array.each do 
+     new_array.push()
   # use .collect to colect and store rooms assign strings
    
    
