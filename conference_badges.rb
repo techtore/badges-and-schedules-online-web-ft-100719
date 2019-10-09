@@ -23,9 +23,8 @@ end
  end
  
 def printer(array)
-  new_array = []
-  i = 1 
-  array.each do |name|
-    new_array.push()
+  batch_badge_creator(array)
+  
+  assign_rooms(array)
    
    
