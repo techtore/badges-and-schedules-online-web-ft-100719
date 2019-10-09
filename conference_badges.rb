@@ -23,11 +23,11 @@ end
  end
  
 def printer(array)
-  batch_badge_creator(array).each do |id|
-    puts id
+  batch_badge_creator(array).each do |i|
+    puts i
   end
-  assign_rooms(array).each do |id|
-    puts id
+  assign_rooms(array).each do |i|
+    puts i
   end
 end
    
